@@ -131,8 +131,6 @@ app.post('/register', async (req, res) => {
     }
 });
 
-
-
 app.get('/' , (req , res) =>{
     console.log(req.session.id);
     res.send('fu')
